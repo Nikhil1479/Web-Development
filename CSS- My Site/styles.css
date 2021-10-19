@@ -13,26 +13,17 @@ p{
     background-color: #E4F9F5;
     width: 200px;
     height: 200px;
-    border-style: solid;
-    border-width: 10px;
-    padding: 20px;
-    /* margin: 0px; */
 }
 
 .middle{
     background-color: red;
-    margin-left: 260px;
     width: 200px;
     height: 200px;
-    border-style: solid;
-    border-width: 20px;
+
 }
 
 .lower{
     background-color: blue;
-    margin-left: 500px;
-    border-style: solid;
-    border-width: 10px;
     width: 200px;
     height: 200px;
 }
