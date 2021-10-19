@@ -7,6 +7,10 @@
 .Pizza{
     background-color: #3f87a6;
     height: 200px;
+    
+}
+img:hover{
+    background-color: gold;
 }
 h1{
     font-family: forte; 
