@@ -1,0 +1,30 @@
+/* img{
+    height: 200px;
+    background-color: red; 
+     */
+    /* Only Applicable for png images */
+/* } */ 
+.Pizza{
+    background-color: #3f87a6;
+    height: 200px;
+    
+}
+img:hover{
+    background-color: gold;
+}
+h1{
+    font-family: forte; 
+    color:#9f86c0;
+}
+body{
+    background-color: #EAF6F6;
+   
+}
+
+a:hover {
+    background-color: aqua;
+    transition-duration: 1000ms;
+    border-style: none dashed none dashed;
+    border-width: 9px;
+    border-radius: 20%;
+}
