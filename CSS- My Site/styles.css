@@ -1,28 +1,59 @@
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     margin: 0px;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+}
+hr{
+    margin-top: 20px;
 }
 
+
+/*◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈ ⚠️ Headings & Paragraphs ⚠️ ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈*/
+.intro_h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
-   margin-top: 0px;
+    font-size: 5.5rem;    /*  100% -> 16px -> 1em  */ /* rem -> root em */
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
    /* display: inline-block; */
    top :50px;
    font-family: 'Sacramento', cursive;
 }
 
+h2{
+    font-size: 2.5rem;    /*  100% -> 16px -> 1em  */ /* rem -> root em */
+    margin-top: 0px;
+    color: #66BFBF;
+   /* display: inline-block; */
+   top :50px;
+   font-family: 'Montserrat',san-serif;
+   font-weight: normal;
+   line-height: 2;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat',san-serif;
+}
+
 p{
     margin-block-end: 0px;
+    font-family: 'Montserrat',san-serif;
+    
     /* display: inline-block; */
-
 }
 
-.container{
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
+a{
+    color: #11999E;
+    font-family: 'Montserrat',san-serif;
 }
 
+/*◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈ 📸 Images 📸 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈*/
 .bottom-cloud{
     position: absolute;
     bottom: 300px;
@@ -32,4 +63,26 @@ p{
     position: absolute;
     right: 400px;
     top: 50px;
+}
+.profile_photo{
+    height: 200px;
+}
+
+.designer{
+    height: 250px;
+}
+.presentation{
+    height: 250px;
+}
+
+
+/*◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈ 🚧 Divs 🚧 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈*/
+.upper_section{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
 }
